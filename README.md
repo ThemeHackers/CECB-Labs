@@ -6,6 +6,7 @@
 
 Detailed analysis and solutions for challenges from [courses.redteamleaders.com](https://courses.redteamleaders.com).
 
+This is my approach, which I recommend: if you want to truly understand like I do, don't just passively apply the information. Analyze, understand, and do it in your own way to obtain your own certification in this field. Thank you.
 ## 🏆 Challenge Progress
 
 | ID | Challenge Name | Status | Solution Path |
