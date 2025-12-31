@@ -133,3 +133,21 @@ Detailed analysis and solutions for challenges from [courses.redteamleaders.com]
 > This succeeds in $O(|p-q|)$ steps, vastly faster than general purpose factoring for this special case.
 
 </details>
+
+<details>
+<summary><b>8. Affine Cipher</b></summary>
+
+> **Vulnerability**: The Affine Cipher is a simple monoalphabetic substitution cipher. It maps each letter to a numerical value, multiplies it by a number ($a$), and adds another number ($b$). Because the number of possible valid key pairs $(a, b)$ is extremely small (only 312 possibilities for the English alphabet), it relies heavily on "Security by Obscurity" and can be broken instantly by checking every possible key (Brute Force).
+>
+> **Theoretical Foundation**:
+> The Affine Cipher operates on the group $\mathbb{Z}_{m}$ (where $m=26$ for English).
+> Encryption is an affine function:
+> $$C \equiv (aP + b) \pmod{m}$$
+> where $\gcd(a, m) = 1$ to ensure the function is bijective (invertible).
+> Decryption uses the modular multiplicative inverse of $a$:
+> $$P \equiv a^{-1}(C - b) \pmod{m}$$
+> The key space size is $|\mathcal{K}| = \phi(m) \times m$.
+> For $m=26$, $\phi(26) = 12$. Total specific keys = $12 \times 26 = 312$.
+> This small space allows trivial exhaustive search.
+
+</details>
