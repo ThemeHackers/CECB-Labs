@@ -1,0 +1,6 @@
+Caesar & Vigenère — Objective
+Decrypt both files:
+
+caesar.txt (Caesar cipher, some unknown shift)
+vigenere.txt (Vigenère cipher, unknown key) Concatenate the TWO recovered result lines into one line separated by a single space and provide that as your answer.
+Hint: REDTEAM

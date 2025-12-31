@@ -1,0 +1,4 @@
+Diffie–Hellman — Objective
+Recover the shared secret given p, g, A, and B. Small exponents were used.
+
+Provide the decimal value of the shared secret as your answer.

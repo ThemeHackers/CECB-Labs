@@ -1,0 +1,4 @@
+AES-256-GCM (Broken) — Objective
+Two messages were encrypted with the same (key, nonce). One plaintext is given.
+
+Recover the other plaintext. Provide the exact ASCII message you recover.

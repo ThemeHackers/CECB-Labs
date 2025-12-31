@@ -1,0 +1,4 @@
+RC4 (Key Reuse) — Objective
+Two messages were encrypted with the same RC4 key. One plaintext is known.
+
+Recover the other plaintext and provide the exact ASCII message as your answer.

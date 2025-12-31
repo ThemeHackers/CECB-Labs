@@ -1,0 +1,4 @@
+RSA Decrypt — Objective
+Recover the plaintext message encrypted under the provided RSA public key.
+
+Provide the exact recovered ASCII message as your answer.

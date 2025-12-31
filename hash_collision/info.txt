@@ -1,0 +1,11 @@
+Hash Collision (Toy) — Objective
+Using the provided toy hash program, find two DIFFERENT ASCII strings that produce the same 32-bit hash value.
+
+Provide both strings (on separate lines) as your answer.
+
+
+What attack did you use to get results?
+    Pass-the-Hash Attacks
+    Length Extension Attacks
+    Birthday Attack
+    Dictionary Attacks
