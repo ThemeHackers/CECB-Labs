@@ -5,7 +5,6 @@ def decrypt_rail_fence(cipher, key):
     dir_down = None
     row, col = 0, 0
     
-    # Mark the places with '*'
     for i in range(len(cipher)):
         if row == 0:
             dir_down = True
@@ -20,7 +19,6 @@ def decrypt_rail_fence(cipher, key):
         else:
             row -= 1
             
-    # Fill the '*' with characters
     index = 0
     for i in range(key):
         for j in range(len(cipher)):
@@ -29,12 +27,10 @@ def decrypt_rail_fence(cipher, key):
                 rail[i][j] = cipher[index]
                 index += 1
                 
-    # Read the matrix
     result = []
     row, col = 0, 0
     for i in range(len(cipher)):
         
-        # Check direction
         if row == 0:
             dir_down = True
         if row == key - 1:
