@@ -17,7 +17,7 @@ Detailed analysis and solutions for challenges from [courses.redteamleaders.com]
 | 05 | **Hash Collision** | ✅ Done | [`hash_collision`](./hash_collision) |
 | 06 | **RC4** | ✅ Done | [`rc4`](./rc4) |
 | 07 | **RSA Decrypt** | ✅ Done | [`rsa_decrypt`](./rsa_decrypt) |
-| 08 | **Challenge 8** | ⬜ Todo | - |
+| 08 | **Affine Cipher** | ✅ Done | [`affine_cipher`](./affine_cipher) |
 | 09 | **Challenge 9** | ⬜ Todo | - |
 | 10 | **Challenge 10** | ⬜ Todo | - |
 

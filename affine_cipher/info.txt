@@ -1,0 +1,6 @@
+Affine Cipher — Objective
+The file 'cipher.txt' contains an English sentence enciphered with an Affine cipher
+
+over the 26-letter alphabet (A–Z), preserving spaces and punctuation.
+
+Recover the original plaintext. Return the exact sentence (uppercase).
