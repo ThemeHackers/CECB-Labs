@@ -151,3 +151,19 @@ Detailed analysis and solutions for challenges from [courses.redteamleaders.com]
 > This small space allows trivial exhaustive search.
 
 </details>
+
+<details>
+<summary><b>9. RSA Cube Root</b></summary>
+
+> **Vulnerability**: This utilizes a **Small Public Exponent Attack**. When RSA is used with a small exponent (like $e=3$) and the message is short enough (or not properly padded) such that $m^e < N$, the modulo operation effectively does nothing. The ciphertext is simply the message cubed ($C = m^3$). The attack is trivial: just calculate the integer cube root of the ciphertext to recover the message.
+>
+> **Theoretical Foundation**:
+> RSA Encryption: $C \equiv m^e \pmod N$.
+> Normally, $m^e$ is much larger than $N$, so the modulo wraps the value many times, securing it.
+> However, if $m < N^{1/e}$ (specifically $m^3 < N$ here), then $m^e$ never exceeds $N$.
+> $$C = m^e$$
+> We can recover $m$ by computing the real $e$-th root:
+> $$m = \sqrt[e]{C}$$
+> This is a standard integer root calculation, solvable in polynomial time.
+
+</details>
