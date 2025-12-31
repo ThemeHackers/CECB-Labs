@@ -19,7 +19,7 @@ Detailed analysis and solutions for challenges from [courses.redteamleaders.com]
 | 07 | **RSA Decrypt** | ✅ Done | [`rsa_decrypt`](./rsa_decrypt) |
 | 08 | **Affine Cipher** | ✅ Done | [`affine_cipher`](./affine_cipher) |
 | 09 | **RSA Cube Root** | ✅ Done | [`rsa_cube_root`](./rsa_cube_root) |
-| 10 | **Challenge 10** | ⬜ Todo | - |
+| 10 | **Rail Fence (3 rails)** | ✅ Done | [`rail_fence_3rails`](./rail_fence_3rails) |
 
 ---
 

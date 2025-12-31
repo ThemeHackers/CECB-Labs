@@ -2,7 +2,7 @@ import math
 import binascii
 
 def integer_nth_root(n, r):
-    # Returns the integer r-th root of n, or None if it's not a perfect root
+
     if n < 0: return None
     if n == 0: return 0
     high = 1
@@ -24,9 +24,6 @@ def solve():
     with open('./rsa_cube_root/ciphertext.hex', 'r') as f:
         c_hex = f.read().strip()
     
-    # We technically don't even need N if m^3 < N, but good to have
-    # Assuming public.txt contains N and e
-    # Format usually: n = ... \n e = ...
     with open('./rsa_cube_root/public.txt', 'r') as f:
         lines = f.readlines()
         
@@ -41,11 +38,10 @@ def solve():
     c = int(c_hex, 16)
     
     print(f"e = {e}")
-    # print(f"n = {n}") # Reduce noise
+  
     print(f"c = {c}")
     
-    # Check if m^3 < n condition holds likely
-    # Or just try valid cube root directly
+
     
     m = integer_nth_root(c, 3)
     

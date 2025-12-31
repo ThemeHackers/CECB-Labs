@@ -1,0 +1,4 @@
+Rail Fence (3 rails) — Objective
+The file 'cipher.txt' contains text encrypted with the classic Rail Fence cipher using exactly 3 rails.
+
+Recover the original plaintext and return it EXACTLY.
