@@ -167,3 +167,17 @@ Detailed analysis and solutions for challenges from [courses.redteamleaders.com]
 > This is a standard integer root calculation, solvable in polynomial time.
 
 </details>
+
+<details>
+<summary><b>10. Rail Fence (3 rails)</b></summary>
+
+> **Vulnerability**: The Rail Fence cipher is a simple **Transposition Cipher**. It rearranges characters in a zigzag pattern across multiple "rails" (rows). The vulnerability lies in the fact that the characters themselves are not changed, only moved. With a small key space (number of rails), it is trivial to brute-force or deduce the pattern by looking at the ciphertext length and standard frequencies.
+>
+> **Theoretical Foundation**:
+> This is a permutation of the plaintext characters.
+> For a message pattern of length $L$ and $k$ rails, the period of the zigzag is $2(k-1)$.
+> The permutation function $\pi: \{0, ..., L-1\} \to \{0, ..., L-1\}$ is deterministic based on $k$.
+> Cryptanalysis involves trying small values of $k$ (e.g., 2, 3, 4...) and checking if the inverse permutation yields readable text.
+> Entropy is preserved; only positions are scrambled.
+
+</details>
