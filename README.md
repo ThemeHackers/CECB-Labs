@@ -1,6 +1,6 @@
 # CECB-Labs Analysis
 
-![Status](https://img.shields.io/badge/Status-70%25_Completed-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-100%25_Completed-success?style=for-the-badge)
 ![Language](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=python)
 ![Category](https://img.shields.io/badge/Category-Cryptography-red?style=for-the-badge&logo=hackthebox)
 
