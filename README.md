@@ -18,7 +18,7 @@ Detailed analysis and solutions for challenges from [courses.redteamleaders.com]
 | 06 | **RC4** | ✅ Done | [`rc4`](./rc4) |
 | 07 | **RSA Decrypt** | ✅ Done | [`rsa_decrypt`](./rsa_decrypt) |
 | 08 | **Affine Cipher** | ✅ Done | [`affine_cipher`](./affine_cipher) |
-| 09 | **Challenge 9** | ⬜ Todo | - |
+| 09 | **RSA Cube Root** | ✅ Done | [`rsa_cube_root`](./rsa_cube_root) |
 | 10 | **Challenge 10** | ⬜ Todo | - |
 
 ---

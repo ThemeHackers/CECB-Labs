@@ -29,15 +29,13 @@ def solve():
     print(f"Ciphertext: {ciphertext}")
     print("-" * 30)
 
-    # Brute force all possible keys
-    # a must be coprime to 26
+    
     valid_a = [i for i in range(1, 26) if math.gcd(i, 26) == 1]
     
     for a in valid_a:
         for b in range(26):
             pt = affine_decrypt(ciphertext, a, b)
-            # Heuristic: Look for "FLAG" or common English words if needed
-            # "AFFINE" is likely in the text given the file name and context
+            
             if "AFFINE" in pt or "FLAG" in pt:
                 print(f"Found candidate (a={a}, b={b}): {pt}")
 

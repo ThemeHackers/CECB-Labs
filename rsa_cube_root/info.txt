@@ -1,0 +1,6 @@
+RSA Cube Root — Objective
+A message was encrypted with RSA using e=3 and NO padding. The modulus n is large, and the plaintext is short enough that m^3 < n (so c = m^3 mod n = m^3).
+
+Recover the plaintext from the provided public key and ciphertext.
+
+Return the exact ASCII message.
